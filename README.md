@@ -9,18 +9,19 @@
 
 📌 Challenge 19
 
-> "In this Challenge, I assumed the role of blockchain lead developer, working for a fintech startup. My goal is to integrate the Ethereum blockchain network into Fintech Finder application in order to enable your customers to instantly pay the fintech professionals whom they hire with cryptocurrency. "
+> "In this Challenge, I assumed the role of blockchain lead developer, working for a fintech startup. My goal is to integrate the Ethereum blockchain network into Fintech Finder application in order to enable customers to instantly pay the fintech professionals whom they hire with cryptocurrency. "
 
 
 ## Table of content
-- [Overview of the project and project goals](https://github.com/nataliaburrey/blockchain_based_ledger#overview-of-the-project-and-project-goals) 
-- [Project steps](https://github.com/nataliaburrey/blockchain_based_ledger#project-steps)
-- [Software version control](https://github.com/nataliaburrey/blockchain_based_ledger#software-version-control)
-    - [Libraries](https://github.com/nataliaburrey/blockchain_based_ledger#libraries)
-    - [Work with GitHub](https://github.com/nataliaburrey/blockchain_based_ledger#work-with-github)
-    - [How to install](https://github.com/nataliaburrey/blockchain_based_ledger#how-to-install)
-    - [Run Streamlit](https://github.com/nataliaburrey/blockchain_based_ledger#run-streamlit)
-- [Helps recruiters](https://github.com/nataliaburrey/blockchain_based_ledger#helps-recruiters)
+- [Overview of the project](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#overview-of-the-project) 
+- [Project goals](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#project-goals)
+- [Project steps](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#project-steps)
+- [Software version control](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#software-version-control)
+    - [Libraries](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#libraries)
+    - [Work with GitHub](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#work-with-github)
+    - [How to install](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#how-to-install)
+    - [Run Streamlit](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#run-streamlit)
+- [Helps recruiters](https://github.com/nataliaburrey/Paying_Salary_With_Crypto#helps-recruiters)
 - [License](https://github.com/nataliaburrey/blockchain_based_ledger#license)
 
 
@@ -91,27 +92,30 @@ In your README.md file, provide screenshots from Etherscan that show the sender�
 
 ##### Following libraries were imported
 
+* crypto_wallet.py
+
+[
+<img width="658" alt="Screen Shot 2021-08-02 at 1 05 59 PM" src="https://user-images.githubusercontent.com/80833988/127917395-947eaeaf-7ade-471f-84ec-e96e3c8eafa4.png">
+](url)
+
+* fintech_finder.py
 
 ```
 # Import the required libraries and dependencies
+
 
 import streamlit as st
 from dataclasses import dataclass
 from typing import Any, List
 
 ```
-*  Pandas - is a software library designed for data analytics that makes it easier to work with data from practically any type of file. Pandas supplies powerful tools for working with time data in particular, and time is a key aspect of financial analysis. Analysts typically compare and measure financial assets—from single stocks to large portfolios—across time.
+
 * Streamlit- is an open-source app framework for Machine Learning and Data Science teams.
 * Dataclasses-a utility tool to make structured classes specially for storing data. These classes hold certain properties and functions to deal specifically with the data and its representation.
 * Typing-provides runtime support for type hints. The most fundamental support consists of the types Any, Union, Tuple, Callable, TypeVar, and Generic.
-* Datetime-supplies classes for manipulating dates and times.
-
-[
-<img width="658" alt="Screen Shot 2021-08-02 at 1 05 59 PM" src="https://user-images.githubusercontent.com/80833988/127917395-947eaeaf-7ade-471f-84ec-e96e3c8eafa4.png">
-](url)
 
 
- 
+
 ### Work with GitHub
 * Repository created on GitHub
 * Files were  committed using command line
@@ -126,10 +130,10 @@ from typing import Any, List
 ```
 cd desktop
 
-git clone 
+git clone https://github.com/nataliaburrey/Paying_Salary_With_Crypto.git
 ```
 
-now you can find repo on your desktop
+now you can find the repo Paying_Salary_With_Crypto on your desktop
 
 
 
@@ -141,7 +145,7 @@ now you can find repo on your desktop
 2. In the terminal, run the Streamlit application by running the command
 
 ```
-streamlit run 
+streamlit run fintech_finder.py
 
 ```
 
@@ -154,7 +158,7 @@ The project was created in collaboration with Berkeley Fintech Bootcamp team
 
 ## License
 
-[MIT]()
+[MIT](https://github.com/nataliaburrey/Paying_Salary_With_Crypto/blob/main/LICENSE)
 
 
 
