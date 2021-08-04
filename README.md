@@ -59,29 +59,69 @@ The steps for this Challenge are divided into the following sections:
 
 ### Step 1: Import Ethereum Transaction Functions into the Fintech Finder Application
 
-Import generate_account, get_balance, and send_transaction from the crypto_wallet.py file. (10 points)
+##### Import generate_account, get_balance, and send_transaction from the crypto_wallet.py file. 
 
-Call the generate_account function and store the account object. (10 points)
+<img width="638" alt="Screen Shot 2021-08-04 at 4 03 03 PM" src="https://user-images.githubusercontent.com/80833988/128266368-976d1237-2400-4e85-9940-b7f7ab2aed21.png">
 
-Call the get_balance function and pass it the Ethereum account.address. (10 points)
+
+##### Call the generate_account function and store the account object. 
+
+<img width="641" alt="Screen Shot 2021-08-04 at 4 03 48 PM" src="https://user-images.githubusercontent.com/80833988/128266414-580b51f1-edf8-4ad8-856e-900a1aae9731.png">
+
+##### Call the get_balance function and pass it the Ethereum account.address. 
+
+<img width="540" alt="Screen Shot 2021-08-04 at 4 05 12 PM" src="https://user-images.githubusercontent.com/80833988/128266512-98987639-4727-4d10-88c9-afbb3e35a7ba.png">
+
+
 
 
 
 ### Step 2: Sign and Execute a Payment Transaction
 
-Calculate the transaction’s total wage. (10 points)
+##### Calculate the transaction’s total wage. 
 
-Call the send_transaction function and pass it the account, candidate_address, and wage parameters. (5 points)
+<img width="649" alt="Screen Shot 2021-08-04 at 4 08 53 PM" src="https://user-images.githubusercontent.com/80833988/128266856-bc69f876-0114-4fa6-8d83-2f259d90ea49.png">
 
-Return the transaction hash from the send_transaction and display it on the application’s web interface. (5 points)
+
+##### Call the send_transaction function and pass it the account, candidate_address, and wage parameters. 
+<img width="620" alt="Screen Shot 2021-08-04 at 4 07 07 PM" src="https://user-images.githubusercontent.com/80833988/128266681-032720a8-1dbe-41c8-a11b-fb3fc2a4a9ed.png">
+
+
+##### Return the transaction hash from the send_transaction and display it on the application’s web interface. 
+
+<img width="327" alt="Screen Shot 2021-08-04 at 4 23 43 PM" src="https://user-images.githubusercontent.com/80833988/128267978-dbeb83fb-1dcf-4a1b-9afa-95736b6b9d50.png">
 
 
 
 ### Step 3: Inspect the Transaction on Etherscan
 
-Send a transaction using the Fintech Finder app, and then use the returned transaction hash to verify the transaction on Etherscan. In the README.md file of your GitHub repository for this Challenge assignment, include a screenshot of the provided transaction details. (10 points)
+##### Send a transaction using the Fintech Finder app
 
-In your README.md file, provide screenshots from Etherscan that show the sender’s address balance and history, and the recipient's address balance and history. (10 points)
+
+https://user-images.githubusercontent.com/80833988/128267117-7269b2d5-7874-43db-8938-e904530ff639.mov
+
+
+
+##### Use the returned transaction hash to verify the transaction on Etherscan. 
+
+<img width="1299" alt="Screen Shot 2021-08-04 at 3 59 28 PM" src="https://user-images.githubusercontent.com/80833988/128267224-a12df8fc-f472-4a6c-bd8c-c09426d17dd3.png">
+
+##### Include a screenshot of the provided transaction details. 
+
+
+<img width="848" alt="Screen Shot 2021-08-04 at 4 14 36 PM" src="https://user-images.githubusercontent.com/80833988/128267348-ed4419ef-5732-476e-a935-bc51418117fd.png">
+
+
+##### Provide screenshots from Etherscan that show the sender’s address balance and history, and the recipient's address balance and history. 
+
+            ##### Sender
+            
+<img width="623" alt="Screen Shot 2021-08-04 at 4 20 53 PM" src="https://user-images.githubusercontent.com/80833988/128267805-de754db2-efd2-4a0b-8bbd-3a3a299d2bb2.png">
+
+
+            ##### Recipient
+
+<img width="1299" alt="Screen Shot 2021-08-04 at 4 17 51 PM" src="https://user-images.githubusercontent.com/80833988/128268108-690be4b9-f04e-4c2c-a084-bb8d13dcace1.png">
 
 
 
